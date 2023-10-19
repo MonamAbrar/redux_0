@@ -1,5 +1,9 @@
 
 
+
+0.0.2
+  - Basic counter example
+
 0.0.1
   - React files cleanup
   - Init new react project
