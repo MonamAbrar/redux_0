@@ -1,5 +1,7 @@
 
 
+0.0.3
+  - Text changing examaple (passing payload in action object)
 
 0.0.2
   - Basic counter example

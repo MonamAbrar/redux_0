@@ -2,7 +2,7 @@ import React from "react";
 
 import DisplayComponent from "../DisplayComponent/DisplayComponent";
 import CounterModifier from "../CounterModifier/CounterModifier";
-import TextModifier from "../TextModifier/DisplayComponent";
+import TextModifier from "../TextModifier/TextModifier";
 
 class MainComponent extends React.Component {
 

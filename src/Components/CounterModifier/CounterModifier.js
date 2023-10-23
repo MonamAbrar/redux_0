@@ -5,7 +5,6 @@ import React from "react";
 class CounterModifier extends React.Component {
 
   render(props) {
-    console.log(this.props);
 
     const decrementHandler = () => {
       const actionObject = {type: 'counter_decremented'};
@@ -29,5 +28,5 @@ class CounterModifier extends React.Component {
 
 }
 
-
+// Step 6 - connect components as needed
 export default connect()(CounterModifier);

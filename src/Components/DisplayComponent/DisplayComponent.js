@@ -10,6 +10,7 @@ class DisplayComponent extends React.Component {
       <>
         <p>Display Component</p>
         <p>{`Counter: ${this.props.counter}`}</p>
+        <p>{`Text: ${this.props.text}`}</p>
       </>
     );
 
@@ -18,7 +19,12 @@ class DisplayComponent extends React.Component {
 }
 
 
+const mapStateToProps = (state) => {
+  return {
+    counter: state.counter,
+    text: state.text
+  }
+}
 
-const mapStateToProps = (state) => ({ counter: state.counter })
-
+// Step 6 - connect components as needed
 export default connect(mapStateToProps)(DisplayComponent);
